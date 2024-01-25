@@ -5,13 +5,13 @@
       <h2 class="section-title">Contact Me</h2>
       <div class="bottom-line"></div>
       <p class="lead">Here is how you can reach me</p>
-      <form name="contact" netlify method="POST" netlify-honeypot="bot-field" data-netlify="true">
+      <form name="contact" netlify method="POST" data-netlify="true">
         <div class="text-fields">
           <input
             type="hidden"
             name="subject"
             data-remove-prefix
-            value="DRNSoftware Website Form Submission (%{submissionId})"
+            value="Dylan Portfolio Website Form Submission (%{submissionId})"
           />
           <input type="hidden" name="form-name" value="ask-question" />
           <!-- Honeypot field -->
@@ -21,29 +21,40 @@
               <input name="bot-field" />
             </label>
           </div>
-          <input type="text" class="text-input name-input" placeholder="Name" name="name" />
+          <!-- Name Field -->
+          <input
+            type="text"
+            class="text-input name-input"
+            placeholder="Name..."
+            name="name"
+            required
+          />
+          <!-- Subject Field -->
           <input
             type="text"
             class="text-input subject-input"
-            placeholder="Subject"
+            placeholder="Subject..."
             name="subject"
           />
+          <!-- Email Field -->
           <input
             type="email"
             class="text-input email-input"
-            placeholder="Email Address"
+            placeholder="Email Address..."
             name="email"
             required
           />
+          <!-- Phone Area -->
           <input
             type="text"
             class="text-input phone-input"
             placeholder="Phone Number"
             name="phone"
           />
+          <!-- Text Area -->
           <textarea
             class="text-input message-input"
-            placeholder="Enter Message"
+            placeholder="Enter Message..."
             name="message"
             required
           ></textarea>
