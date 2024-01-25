@@ -1,7 +1,9 @@
-<script></script>
+<script setup>
+import WorkComp from '@/components/WorkComp.vue'
+</script>
 <template>
   <div>
-    <h1>Work View</h1>
+    <WorkComp />
   </div>
 </template>
 <style lang="scss">

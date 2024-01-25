@@ -126,8 +126,8 @@ input[class^='btn-']:hover {
   display: grid;
   //   -ms-grid-columns: (1fr) [3];
   grid-template-columns: repeat(3, 1fr);
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 7px 12px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 7px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
 .item {
@@ -643,7 +643,7 @@ img {
 
 #contact-c h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 #main-footer {
@@ -788,9 +788,7 @@ img {
     margin-bottom: 0;
     padding-bottom: 0;
   }
-  #contact-c h1 {
-    font-size: 2rem;
-  }
+
   #main-footer {
     height: 7rem;
   }
