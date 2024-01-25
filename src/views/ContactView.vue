@@ -1,7 +1,9 @@
-<script></script>
+<script setup>
+import ContactComp from '@/components/ContactComp.vue'
+</script>
 <template>
   <div>
-    <h1>Contact View</h1>
+    <ContactComp />
   </div>
 </template>
 
