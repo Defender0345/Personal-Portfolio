@@ -9,6 +9,17 @@
     <title>Dylan Portfolio</title>
   </head>
   <body>
+    <form name="ask-question" netlify method="post" data-netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+    <noscript>
+      <strong
+        >We're sorry but DRN SOFTWARE doesn't work properly without JavaScript enabled. Please
+        enable it to continue.</strong
+      >
+    </noscript>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
