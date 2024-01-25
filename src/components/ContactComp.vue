@@ -5,7 +5,7 @@
       <h2 class="section-title">Contact Me</h2>
       <div class="bottom-line"></div>
       <p class="lead">Here is how you can reach me</p>
-      <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+      <form name="contact" netlify method="POST" netlify-honeypot="bot-field" data-netlify="true">
         <div class="text-fields">
           <input
             type="hidden"
