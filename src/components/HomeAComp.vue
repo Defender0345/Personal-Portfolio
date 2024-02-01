@@ -3,6 +3,8 @@
 <template>
   <section id="home-a" class="text-center py-2">
     <div class="container">
+      <h1>Welcome To my Portfolio</h1>
+      <div class="bottom-line"></div>
       <h2 class="section-title">Specializing in</h2>
       <div class="bottom-line"></div>
       <p class="lead">Front-End & Back-End Web development</p>
@@ -48,4 +50,16 @@
 
 <style lang="scss">
 @import '@/assets/_shared.scss';
+#home-a {
+  .container {
+    h1 {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      display: block;
+      padding-bottom: 0.5rem;
+      text-align: center;
+      font-weight: 100;
+    }
+  }
+}
 </style>

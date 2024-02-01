@@ -170,12 +170,20 @@
       <p class="lead py-1">Come back again! More Projects will be uploaded periodically.</p>
     </div>
   </section>
+  <section id="work-b" class="text-center">
+    <div>
+      <div class="word-cloud">
+        <img src="@/assets/Images/wordcloud.jpg" alt="Word Cloud" />
+      </div>
+    </div>
+  </section>
 </template>
 
 <style lang="scss">
 @import '@/assets/_shared.scss';
 #work-a {
   min-height: 100vh;
+  padding-bottom: 0;
   .container {
     .lead {
       margin-bottom: 1rem;
