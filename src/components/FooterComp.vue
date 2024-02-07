@@ -2,7 +2,7 @@
 
 <template>
   <footer id="main-footer">
-    <div class="footer-content container">
+    <div class="footer-content">
       <p>Copyright &copy; Dylan Nel 2024. All Rights Reserved</p>
       <div class="social">
         <a class="fab fa-github" href="https://github.com/Defender0345" target="_blank"></a>
