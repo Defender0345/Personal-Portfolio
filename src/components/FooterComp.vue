@@ -18,4 +18,7 @@
 
 <style lang="scss">
 @import '@/assets/_shared.scss';
+#main-footer {
+  z-index: 99;
+}
 </style>

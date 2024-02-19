@@ -2,9 +2,9 @@
 import WorkComp from '@/components/WorkComp.vue'
 </script>
 <template>
-  <div>
+  <main>
     <WorkComp />
-  </div>
+  </main>
 </template>
 <style lang="scss">
 @import '@/assets/_shared.scss';

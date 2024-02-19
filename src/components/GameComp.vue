@@ -101,6 +101,9 @@ export default {
 :root {
   --cell-size: 100px;
   --mark-size: calc(var(--cell-size) * 0.9);
+  @media (max-width: 768px) {
+    --cell-size: 70px;
+  }
 }
 
 h1 {
@@ -113,7 +116,7 @@ h1 {
 }
 
 .board {
-  width: 100vw;
+  // width: 100vw;
   height: 80vh;
   display: grid;
   justify-content: center;
@@ -271,11 +274,12 @@ h1 {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 1.3rem;
   }
   .board {
+    // width: 70%;
     height: 65vh;
   }
   .winning-message {

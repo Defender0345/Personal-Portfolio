@@ -3,7 +3,9 @@ import AboutAComp from '@/components/AboutAComp.vue'
 </script>
 
 <template>
-  <AboutAComp />
+  <main>
+    <AboutAComp />
+  </main>
 </template>
 
 <style lang="scss">

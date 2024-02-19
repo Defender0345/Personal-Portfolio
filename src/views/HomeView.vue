@@ -3,7 +3,9 @@ import HeaderComp from '@/components/HeaderComp.vue'
 </script>
 
 <template>
-  <HeaderComp />
+  <main>
+    <HeaderComp />
+  </main>
 </template>
 
 <style lang="scss">

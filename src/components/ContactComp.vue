@@ -72,13 +72,6 @@
       </div>
     </div>
   </section>
-
-  <!-- Section C: TagLine -->
-  <section id="contact-c" class="bg-main py-4">
-    <div class="container">
-      <h1>Let's Start your next Project!</h1>
-    </div>
-  </section>
 </template>
 <style lang="scss">
 @import '@/assets/_shared.scss';

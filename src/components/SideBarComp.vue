@@ -16,22 +16,27 @@
     <div class="menu">
       <router-link to="/" class="button">
         <i class="fa-solid fa-house sidebar-icon"></i>
+        <div class="px-1"></div>
         <span class="text">Home</span>
       </router-link>
       <router-link to="/work" class="button">
         <i class="fa-brands fa-github sidebar-icon"></i>
+        <div class="px-1"></div>
         <span class="text">Work</span>
       </router-link>
       <router-link to="/about" class="button">
         <i class="fa-solid fa-user sidebar-icon"></i>
+        <div class="px-1"></div>
         <span class="text">About</span>
       </router-link>
       <router-link to="/game" class="button">
         <i class="fa-solid fa-gamepad sidebar-icon"></i>
+        <div class="px-1"></div>
         <span class="text">Game</span>
       </router-link>
       <router-link to="/contact" class="button">
         <i class="fa-solid fa-envelope sidebar-icon"></i>
+        <div class="px-1"></div>
         <span class="text">Contact</span>
       </router-link>
     </div>
@@ -52,26 +57,26 @@ const ToggleMenu = () => {
 
 <style lang="scss">
 :root {
-  --primary: #4ade80;
+  --primary: #ffbc00;
   --primary-alt: #22c55e;
   --grey: #64748b;
-  --dark: #1e293b;
+  --dark: #333;
   --dark-alt: #334155;
   --light: #f1f5f9;
   --sidebar-width: 300px;
 }
 
-.app {
-  display: flex;
-  main {
-    flex: 1 1 0;
-    padding: 2rem;
+// .app {
+//   display: flex;
+//   main {
+//     flex: 1 1 0;
+//     padding: 2rem;
 
-    @media (max-width: 768px) {
-      padding-left: 6rem;
-    }
-  }
-}
+//     @media (max-width: 768px) {
+//       padding-left: 6rem;
+//     }
+//   }
+// }
 
 button {
   cursor: pointer;
@@ -84,6 +89,7 @@ button {
 aside {
   display: flex;
   flex-direction: column;
+  position: fixed;
 
   background-color: var(--dark);
   color: var(--light);
@@ -92,8 +98,7 @@ aside {
   overflow: hidden;
   min-height: 100vh;
   padding: 1rem;
-  position: absolute;
-  z-index: 99;
+  z-index: 98;
 
   transition: 0.2s ease-out;
 

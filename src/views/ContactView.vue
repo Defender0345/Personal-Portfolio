@@ -2,9 +2,9 @@
 import ContactComp from '@/components/ContactComp.vue'
 </script>
 <template>
-  <div>
+  <main>
     <ContactComp />
-  </div>
+  </main>
 </template>
 
 <style lang="scss">
