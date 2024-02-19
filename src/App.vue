@@ -1,5 +1,4 @@
 <script setup>
-// import NavBarComp from './components/NavBarComp.vue'
 import FooterComp from './components/FooterComp.vue'
 import SideBarComp from '@/components/SideBarComp.vue'
 </script>
