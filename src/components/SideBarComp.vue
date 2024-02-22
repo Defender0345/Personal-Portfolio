@@ -129,6 +129,7 @@ aside {
     .menu-toggle {
       transition: 0.2s ease-in-out;
       .sidebar-icon {
+        font-size: 1.3rem;
         width: 2rem;
         color: var(--light);
         transition: 0.2s ease-out;

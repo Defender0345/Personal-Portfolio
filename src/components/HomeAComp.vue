@@ -3,7 +3,7 @@
 <template>
   <section id="home-a" class="text-center py-2">
     <div class="container">
-      <h1>Welcome To my Portfolio</h1>
+      <h1><span>I am Dylan Nel,</span> <br />Welcome To my Portfolio</h1>
       <div class="bottom-line"></div>
       <h2 class="section-title">Specializing in</h2>
       <div class="bottom-line"></div>
@@ -59,6 +59,13 @@
       padding-bottom: 0.5rem;
       text-align: center;
       font-weight: 100;
+    }
+    @media (min-width: 500px) {
+      h1 {
+        span {
+          display: none;
+        }
+      }
     }
   }
 }
