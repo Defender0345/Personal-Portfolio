@@ -109,7 +109,7 @@ export default {
 h1 {
   font-size: 2rem;
   display: block;
-  padding-top: 97px;
+  padding-top: 1rem;
   text-align: center;
   font-weight: 100;
   text-transform: uppercase;
@@ -218,14 +218,15 @@ h1 {
 
 .winning-message {
   position: fixed;
-  top: 15%;
-  left: 40%;
-  right: 40%;
-  background-color: black !important;
+  top: 20%;
+  left: 35%;
+  right: 20%;
+  border-radius: 50px 50px 50px 50px;
+  background-color: #333 !important;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: #ffbc00;
   font-size: 5rem;
   flex-direction: column;
 }
@@ -233,15 +234,15 @@ h1 {
 .winning-message button {
   font-size: 3rem;
   background-color: white;
-  border: 1px solid black;
+  color: #333;
   padding: 0.25em 0.5em;
+  border-radius: 50px 50px 50px 50px;
   cursor: pointer;
 }
 
 .winning-message button:hover {
-  background-color: black;
-  color: white;
-  border-color: white;
+  background-color: white;
+  color: #ffbc00;
 }
 
 .winning-message.show {
@@ -274,7 +275,19 @@ h1 {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
+  .winning-message {
+    top: 20%;
+    left: 25%;
+    right: 10%;
+    border-radius: 25px 25px 25px 25px;
+
+    button {
+      border-radius: 50px 50px 50px 50px;
+    }
+  }
+}
+@media (max-width: 769px) {
   h1 {
     font-size: 1.3rem;
   }
@@ -284,13 +297,8 @@ h1 {
   }
   .winning-message {
     top: 20%;
-    left: 20%;
-    right: 20%;
-  }
-}
-@media (max-width: 500px) {
-  h1 {
-    padding-top: 150px;
+    left: 35%;
+    right: 10%;
   }
 }
 </style>
