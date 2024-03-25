@@ -140,6 +140,32 @@
             </div>
           </div>
         </div>
+        <!-- BJN Shuttle Service -->
+        <div>
+          <div class="item">
+            <div class="item-image">
+              <img src="@/assets/Images/work/BJNShuttleService.png" alt="" />
+            </div>
+            <div class="item-text">
+              <div class="item-text-wrap">
+                <p class="item-text-category">BJN Shuttle Service</p>
+                <p class="subheading">Vue, HTML, JavaScript &amp; SCSS</p>
+                <div>
+                  <a
+                    class="fab fa-github"
+                    href="https://github.com/Defender0345/BJ-November-Shuttle"
+                    target="_blank"
+                  ></a>
+                  <a
+                    href="https://bjn-shuttleservice.co.za/"
+                    target="_blank"
+                    class="fas fa-desktop fa-4x"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- Edge Ledger -->
         <div>
           <div class="item">
